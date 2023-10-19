@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>  
+<html>
+	<head>  
+		<title>Moving Text</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="move.js"></script>    	
+	</head>  
+	<body onmousemove="move_text(event)">  
+		<form id="my_frm" name="my_frm" >
+			<div>
+				<span>
+                    <input type="text" name="box" id="box" value="tsunade" onblur="change_text()" autofocus="autofocus"/>
+                </span>
+			</div>			
+			<span id="move" class="user_text_box">Infomax Academy</span>
+		</form>
+	</body>
+</html>
